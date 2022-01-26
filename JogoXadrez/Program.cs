@@ -1,4 +1,4 @@
-﻿using tabuleiro;
+﻿using TabuleiroXadrez;
 
 namespace JogoXadrez {
     class Program {
