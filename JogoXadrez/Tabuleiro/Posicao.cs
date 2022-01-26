@@ -1,6 +1,20 @@
 ﻿using System;
 
-namespace JogoXadrez.Tabuleiro {
-    internal class Posicao {
+namespace Tabuleiro {
+    class Posicao {
+
+        public int Linha { get; set; }
+        public int Coluna { get; set; }
+
+        public Posicao(int linha, int coluna) {
+            Linha = linha;
+            Coluna = coluna;
+        }
+        public override string ToString() {
+            return "Posição "
+                + Linha
+                + ", "
+                + Coluna;
+        }
     }
 }
