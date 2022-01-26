@@ -1,20 +1,23 @@
 ﻿using System;
 
-namespace TabuleiroXadrez {
-    class Posicao {
-
+namespace TabuleiroXadrez
+    {
+    class Posicao
+        {
         public int Linha { get; set; }
         public int Coluna { get; set; }
 
-        public Posicao(int linha, int coluna) {
+        public Posicao(int linha, int coluna)
+            {
             Linha = linha;
             Coluna = coluna;
-        }
-        public override string ToString() {
+            }
+        public override string ToString()
+            {
             return "Posição "
                 + Linha
                 + ", "
                 + Coluna;
+            }
         }
     }
-}
