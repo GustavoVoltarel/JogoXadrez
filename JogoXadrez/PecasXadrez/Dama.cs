@@ -15,7 +15,7 @@ namespace PecasXadrez
 
         public override string ToString()
             {
-            return "D";
+            return " D ";
             }
         }
     }
