@@ -21,5 +21,10 @@ namespace TabuleiroXadrez
             Cor = cor;
             QtdeMovimentos = 0;
             }
+
+        public void IncrementarQtdeMovimentos()
+            {
+            QtdeMovimentos++;
+            }
         }
     }

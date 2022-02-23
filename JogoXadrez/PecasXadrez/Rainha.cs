@@ -5,18 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using TabuleiroXadrez;
 
-namespace PecasXadrez
+namespace JogoXadrez.PecasXadrez
     {
-    class Rei : Peca
+    class Rainha : Peca
         {
-
-        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Rainha(Tabuleiro tab, Cor cor) : base(tab, cor)
             {
             }
 
         public override string ToString()
             {
-            return " R ";
+            return " Q ";
             }
         }
     }
